@@ -32,7 +32,7 @@ Efetuar uma requisição PUT/PATCH na API passando o id da pessoa e enviando no 
 ###### Excluir 03
 Efetuar uma requisição DELETE na API passando o id da pessoa. Se houver endereços cadastrado para essa pessoa não pode autorizar a exclusão dos dados, deve retornar uma mensagem de erro. Não retornar nada se deletado com sucesso.
 
-### 2 - API de Endereço da Pessoa
+### 2 - API de Endereços da Pessoa
 	
 ###### Premissas:
 - Possibilitar cadastrar, alterar e excluir uma endereço.
