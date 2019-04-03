@@ -1,3 +1,21 @@
+#Developer Informations
+
+- O banco de dados foi configurado como "digitaly".
+- As tabelas são geradas a partir dos arquivos de migration que estão dentro da pasta database/migrations.
+- As rotas estão divididas de acordo com o escopo do projeto.
+
+#Configuração do Virtual Host para não precisar colocar o /public na url
+<VirtualHost *:80>
+   ServerAdmin webmaster@dummy-host.example.com
+   DocumentRoot "/path/to/app/public"
+
+   <Directory "/path/to/app/public">
+       Options Indexes FollowSymLinks Includes ExecCGI
+       AllowOverride All
+       Require all granted
+   </Directory>
+</VirtualHost>
+
 # Microservices
 
 Versão mínima: PHP 7 e MySQL 5</br>
